@@ -1,0 +1,34 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column;; */
+    /* flex-wrap: wrap; */
+    /* align-items: flex-start; */
+    /* width: 400px; */
+    /* justify-content: center; */
+    /* align-content: space-between;*/
+    background-color: aquamarine; 
+}
+
+/* .box>:first-child div{
+    width: 100px;
+    height: 100px;
+    align-self: stretch;
+} */
+
+.box .selected{
+    align-self: center;
+}
+
+.box1{
+    background-color: aliceblue;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: rgb(2, 255, 171);
+}
+.box4{
+    background-color: burlywood;
+}
